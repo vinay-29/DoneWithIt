@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app12345! Master</Text>
+      <Text>Open up App.js to start working on your app12345! Dev1</Text>
       <StatusBar style="auto" />
     </View>
   );
