@@ -16,6 +16,8 @@ function Profile(props) {
         source={require('../assets/MyBike.jpg')}
           />
 </View>
+
+<Text style= {{ fontSize: 25, color: "#000" }}> Hello Friends </Text>
         
 </View>
     );
@@ -24,7 +26,30 @@ function Profile(props) {
 const styles = StyleSheet.create({
     root:{
         flex:1
-    }
+    },
+    topBox: {
+        flex: 1,
+        flexDirection: 'row',
+        backgroundColor: 'lightgray',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    headline: {
+        fontWeight: 'bold',
+        fontSize: 18,
+    marginTop: 0,
+        width: 200,
+        height: 80,
+    backgroundColor: 'yellow',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    otherContainer: {
+        flex: 4,
+        justifyContent: 'center',
+        alignItems: 'center',
+    backgroundColor: 'green',
+    },
 });
 
 export default Profile;
